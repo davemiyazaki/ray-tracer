@@ -10,7 +10,7 @@ class vec3{
     public:
     vec3(){}
     vec3(float e0, float e1, float e2){e[0] = e0; e[1] = e1; e[2] = e2; }
-    inline float x() {return e[0];}
+    /*inline float x() {return e[0];}
     inline float y() {return e[1];}
     inline float z() {return e[2];}
     inline float r() {return e[0];}
@@ -33,6 +33,6 @@ class vec3{
     inline float length() const { return sqrt(e[0]*e[0] + e[1]*e[1] + e[2]*e[2]);}
     inline float squared_length() const { return e[0]*e[0] + e[1]*e[1] + e[2]*e[2];}
     inline void make_unit_vector();
-
+    */
     float e[3];
 };
