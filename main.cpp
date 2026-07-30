@@ -9,6 +9,7 @@ int main(){
     
     //Render
 
-    std::cout << "P3\n" << image_height << " " << image_width << "\n255\n";
+    std::cout << "P3\n" << image_width << " " << image_height << "\n255\n";
+
     return 0;
 }
